@@ -1,0 +1,114 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+<script>
+const home = () => {
+document.getElementById('homecontent').innerHTML='HomePage Content';
+
+}
+
+const about = () =>{
+     document.getElementById('aboutcontent').innerHTML='About Page Contents';
+}
+
+ const product = () =>{
+    document.getElementById('productcontent').innerHTML='About Products';
+ }
+
+ const contact = () =>{
+  document.getElementById('contactcontent').innerHTML='About Contacts'
+ }
+
+</script>
+
+
+<style>
+.navigation{
+    background:blue;
+    display:inline;
+    cursor:pointer;
+    border-radius:3px;
+    color:pink;
+    margin-right:10%;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+#navbar{
+    text-align:center;
+}
+
+
+</style>
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <script src="https://kit.fontawesome.com/d92630495d.js" crossorigin="anonymous"></script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap" rel="stylesheet"> 
+ </head>
+ <body>
+     <main>
+       
+         <div id="content">
+             <div id="contentnav">
+                 <nav id="navbar">
+                    
+                            
+                               <button  class="navigation" onClick="home()">Home</button>
+                            
+                                <button  class="navigation" onClick="about()">About Us</button>
+                            
+                                <button  class="navigation" onClick="product()">Products</button>
+                            
+                                <button  class="navigation" onClick="contact()">Contact Us</button>
+                           
+                     
+                 </nav>
+                 <img class="logo" src="https://media.istockphoto.com/id/529424115/photo/green-technology.jpg?s=612x612&w=0&k=20&c=x2n-BUD-Pzn7BfBxejxRJOpM7zbpyHLhZR9_IaFvnCc=" alt="geometric logotype">
+             </div>  
+             <div id="homecontent">
+
+             </div>
+
+             <div id="aboutcontent"></div>
+             <div id="productcontent"></div>   
+             <div id="contactcontent"></div>
+             <div id="content-text">
+                 <h1>Green Innovations</h1>
+                 <h2>Lorem ipsum dolor sit amet, consectetur 
+  
+                     adipisicing elit pariatur quibusdam 
+  
+                     voluptatem pariatur dolore.</h2>
+                 <button>Learn More</button>
+             </div>
+             <div id="footer">
+                 <div id="contacts">
+                     <div id="Mobile">
+                         More Information call us 
+ 
+                         <span>+91-8908192939</span>
+                     </div>
+                     <div id="adress">
+                         Av. Lorem ipsum dolor, 2045 
+ 
+                         Dolor sit Amet - Adress</span>
+                     </div>
+                 </div>  
+                 <div class="icons">
+                     <i class="fa-solid fa-mobile-screen"></i>
+                     <i class="fa-solid fa-location-dot"></i>
+                 </div>               
+             </div>
+         </div>
+         <div id="image-section">
+            
+            <img class="header-image" src="https://imageio.forbes.com/specials-images/imageserve/5f8cf241ca7366afc9406629/Green-IT/960x0.jpg?format=jpg&width=960" alt="a business woman and man standing back to back to each other and smiling">
+        </div>
+     </main>
+     
+ </body>
+ </html>
